@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.51.3/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>live on yputube</title>
+  </head>
+  <body>
+    <!-- do this  for your practise -->
+
+    <section>
+      <div>
+        <div class="grid grid-cols-3 gap-5 w-1/2 mx-auto h-screen items-center">
+          <div>
+            <input id="input1"
+              type="text"
+              placeholder="Type here"
+              class="input input-bordered input-info w-full max-w-xs"
+            />
+          </div>
+          <div>
+            <input
+            id="input2"
+              type="text"
+              placeholder="Type here"
+              class="input input-bordered input-info w-full max-w-xs"
+            />
+          </div>
+          <div>
+            <input
+            id="input3"
+              type="text"
+              placeholder="Type here"
+              class="input input-bordered input-info w-full max-w-xs"
+            />
+          </div>
+
+          <button
+            class="py-5 px-7 bg-orange-600 text-white font-bold rounded-lg"
+            id="btn1"
+          >
+            submit
+          </button>
+        </div>
+        <div>
+          <h1 class="text-4xl font-bold"> <span id="totalcalcu">00</span></h1>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
