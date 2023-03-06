@@ -1,4 +1,6 @@
+
 document.getElementById("btn1").addEventListener("click",function(){
+
 
 
 const get=document.getElementById("input1")
@@ -18,9 +20,15 @@ const total=parts+parts2+parts3
 
 
 
+
 let get44=document.getElementById("totalcalcu")
 
+let inner=get44.innerText
+
 get44.innerText=total
+
+
+
 
 
 
